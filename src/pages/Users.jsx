@@ -73,7 +73,7 @@ const Users = () => {
                 
                 <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-4">
                     <div className="text-center md:text-left">
-                        <h1 className="text-4xl font-bold text-emerald-600 mb-2">
+                        <h1 className="text-4xl font-bold text-emerald-700 mb-2">
                             Users Management
                         </h1>
                         <p className="text-gray-600 text-lg">

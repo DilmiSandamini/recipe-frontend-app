@@ -75,7 +75,7 @@ const Home = () => {
         <div className="min-h-screen bg-gray-50 p-8 relative">
             
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center mb-10 gap-4">
-                <h1 className="text-4xl font-extrabold text-emerald-600 tracking-tight">
+                <h1 className="text-4xl font-bold text-emerald-700 tracking-tight">
                     Our Fresh Recipes
                 </h1>
                 
@@ -132,7 +132,7 @@ const Home = () => {
                             <div className="px-6 pb-6 mt-auto">
                                 <button 
                                     onClick={() => handleViewRecipe(recipe)}
-                                    className="w-full bg-emerald-50 text-emerald-600 font-bold py-3.5 px-4 rounded-2xl hover:bg-emerald-500 hover:text-white transition-all flex items-center justify-center gap-2 border border-emerald-100 group-hover:border-transparent">
+                                    className="w-full bg-emerald-500 text-white font-bold py-3.5 px-4 rounded-2xl hover:bg-emerald-600 transition-all flex items-center justify-center gap-2 border border-emerald-100 group-hover:border-transparent">
                                     <FaEye className="text-xl" /> View Full Recipe
                                 </button>
                             </div>
