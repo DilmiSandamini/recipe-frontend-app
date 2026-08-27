@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import api from '../services/api';
 
 const Login = ({ setIsAuthenticated }) => {
     const [username, setUsername] = useState('');
@@ -16,7 +16,7 @@ const Login = ({ setIsAuthenticated }) => {
         setIsLoading(true);
 
        try {
-            const response = await axios.post('/api/admin/login', {  
+            const response = await api.post('/admin/login', { 
                 username: username,
                 password: password
             });
