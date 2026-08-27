@@ -16,7 +16,7 @@ const Login = ({ setIsAuthenticated }) => {
         setIsLoading(true);
 
         try {
-    const response = await axios.post('http://136.119.198.141:8080/api/admin/login', {   
+    const response = await axios.post('http://35.202.207.85:8080/api/admin/login', {   
                 username: username,
                 password: password
             });
