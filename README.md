@@ -10,7 +10,7 @@
 This repository contains the frontend user interface for the Flavoriz application. It is designed to consume the backend microservices through the API Gateway, demonstrating the seamless integration between the frontend and the cloud-native backend architecture.
 
 ## Project Demo Video
-[Click here to watch the Screen Recording](https://drive.google.com/file/d/1SFhLSV8d-3QbiE6hd8J6tIdy8cL7Q33E/view?usp=sharing)
+[Click here to watch the Screen Recording](https://drive.google.com/file/d/1zAk5ovia_FZzaVk61NS3BEDWIJcOqjC0/view?usp=sharing)
 
 ## Technology Stack
 * React & React DOM
